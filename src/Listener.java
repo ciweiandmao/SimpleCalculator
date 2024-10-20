@@ -45,7 +45,7 @@ public class Listener implements ActionListener
 				double result = f.compute(out);
 				cl.text.setText(Double.toString(result));
 			} catch(Exception e) {
-				cl.text.setText("Input Error！！！！！！！!");
+				cl.text.setText("Input Error~~~~~~~~~~");
 			}
 		} else if(button.getText().equals("×")) {
         	
